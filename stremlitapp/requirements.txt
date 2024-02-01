@@ -10,3 +10,4 @@ plotly
 plotly-express
 seaborn
 streamlit
+streamlit_folium
