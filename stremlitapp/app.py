@@ -14,7 +14,7 @@ sns.set()
 alt.data_transformers.disable_max_rows()
 
 # Cargar datos
-listings = pd.read_csv('listings.csv')
+listings = pd.read_csv('df_finals/listings.csv')
 listings_details = pd.read_csv('df_finals\listings_details.csv')
 neighbourhoods = pd.read_csv('df_finals\neighbourhoods.csv')
 delitos = pd.read_csv('df_finals\delitos.csv')
