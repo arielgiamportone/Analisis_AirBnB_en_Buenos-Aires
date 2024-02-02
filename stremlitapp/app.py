@@ -8,6 +8,9 @@ from streamlit_folium import folium_static
 from folium.plugins import FastMarkerCluster
 import altair as alt
 
+import os
+print("Directorio de trabajo:", os.getcwd())
+
 # Configuración inicial
 sns.set()
 alt.data_transformers.disable_max_rows()
