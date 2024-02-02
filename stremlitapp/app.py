@@ -22,7 +22,7 @@ import cufflinks
 cufflinks.go_offline(connected=True)
 init_notebook_mode(connected=True)
 
-listings = pd.read_csv('df_finals/listings.csv')
+listings = pd.read_csv("df_finals/listings.csv")
 listings_details = pd.read_csv('df_finals/listings_details.csv')
 neighbourhoods = pd.read_csv('df_finals/neighbourhoods.csv')
 delitos = pd.read_csv('df_finals/delitos.csv')
