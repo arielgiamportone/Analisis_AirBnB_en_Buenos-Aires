@@ -22,6 +22,21 @@ import cufflinks
 cufflinks.go_offline(connected=True)
 init_notebook_mode(connected=True)
 
+
+# Obtener la ruta del script
+script_path = os.path.dirname(os.path.realpath(__file__))
+
+# Construir la ruta completa al archivo listings.csv
+file_path = os.path.join(script_path, 'df_finals', 'listings.csv')
+
+# Verificar si el archivo existe antes de intentar cargarlo
+if os.path.isfile(file_path):
+    # Cargar el archivo CSV
+    listings = pd.read_csv(file_path)
+    st.write(listings)
+else:
+    st.error(f"El archivo {file_path} no se encuentra. Verifica la ruta del archivo.")
+    
 listings = pd.read_csv('df_finals/listings.csv')
 listings_details = pd.read_csv('df_finals/listings_details.csv')
 neighbourhoods = pd.read_csv('df_finals/neighbourhoods.csv')
