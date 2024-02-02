@@ -18,7 +18,7 @@ listings = pd.read_csv('df_finals\listings.csv')
 listings_details = pd.read_csv('df_finals\listings_details.csv')
 neighbourhoods = pd.read_csv('df_finals\neighbourhoods.csv')
 delitos = pd.read_csv('df_finals\delitos.csv')
-delitos_sorted_transposed = pd.read_csv('df_finals\\delitos_sorted_transposed.csv')
+delitos_sorted_transposed = pd.read_csv('df_finals\delitos_sorted_transposed.csv')
 
 def main():
     # Configurar la página
