@@ -14,10 +14,10 @@ sns.set()
 alt.data_transformers.disable_max_rows()
 
 # Cargar datos
-listings = pd.read_csv('stremlitapp\\df_finals\\listings.csv')
-listings_details = pd.read_csv('df_finals\\listings_details.csv')
-neighbourhoods = pd.read_csv('df_finals\\neighbourhoods.csv')
-delitos = pd.read_csv('df_finals\\delitos.csv')
+listings = pd.read_csv('df_finals\listings.csv')
+listings_details = pd.read_csv('df_finals\listings_details.csv')
+neighbourhoods = pd.read_csv('df_finals\neighbourhoods.csv')
+delitos = pd.read_csv('df_finals\delitos.csv')
 delitos_sorted_transposed = pd.read_csv('df_finals\\delitos_sorted_transposed.csv')
 
 def main():
