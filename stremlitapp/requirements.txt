@@ -11,3 +11,4 @@ plotly-express
 seaborn
 streamlit
 streamlit_folium
+chart-studio==1.1.0
